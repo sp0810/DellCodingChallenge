@@ -1,0 +1,11 @@
+---
+- hosts: hostname/groupname
+  tasks:
+  - name: archive the files older than 30 days inside a particular directory created by test user
+    archive:
+      path: /home/ec2-user/testdirectory
+      dest: /home/ec2-user/testdirectory.zip
+      recurse: yes
+      format: zip
+      age: 30d
+      owner: test
