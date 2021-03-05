@@ -1,0 +1,10 @@
+Q1). Given a string, find the first non-repeating character in it and return its index. if all characters are repeating then return -1. (characters may repeat any number of times in any order) 
+Ex: abc return a and its index is 0
+Ex: abca return b  index is 1
+Ex: abcab return c  index is 2
+Ex: abcabc return -1
+
+Q3) Create a class called Employee which should have attributes like employee name, age, salary and email id. And a method to modify the employee name and email id.
+Create an instance of the above class and then take a copy of the instance and modify employee name to “TestName” and email id to Test.Name@emailid.com then print the object attributes of both instance using str() method.
+
+Q4). Write a playbook to archive/zip all files inside a given directory (and its sub-directories) created by a "test" user, which are older than a month.
